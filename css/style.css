@@ -1,4 +1,4 @@
-
+/* Navbar */
 .navbar{
     display: flex;
     text-decoration: none;
@@ -15,7 +15,7 @@
 }
 
 .navbar li{
-    margin-right: 3rem;
+    /* margin-right: 3rem; */
     align-items: center;
 }
 
@@ -23,8 +23,34 @@
     text-decoration: none;
 }
 
+/* #button{
+    border-radius: 20px !important;
+    box-shadow: 0 0 15px px rgb(192, 182, 182)
+} */
 
 .about{
     margin-top: .4rem;
+    margin-right: 3rem;
     color: #FFC302;
+}
+
+/* First Section */
+
+.section-1{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.text-div{
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-div .p1{
+    font-weight: 10rem !important;
 }
