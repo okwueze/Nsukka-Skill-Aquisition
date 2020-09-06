@@ -1,0 +1,30 @@
+
+.navbar{
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.navbar ul{
+    display: flex; 
+    list-style: none;
+}
+
+.navbar li{
+    margin-right: 3rem;
+    align-items: center;
+}
+
+.navbar ul a:hover{
+    text-decoration: none;
+}
+
+
+.about{
+    margin-top: .4rem;
+    color: #FFC302;
+}
